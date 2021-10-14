@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    color: #000;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    font-family: 'Hi Melody', cursive;
+    background: linear-gradient(to right, rgb(216, 132, 216), rgb(126, 124, 204));
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0px;
+    border: 0;
+    float: left;
+    padding-left: 50px;
+    line-height: 50px;
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.menu span {
+    float: right;
+    margin-right: 30px;
+}
+
+.name {
+    display: static;  
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.describe {
+    display: block;
+}
+
+#tarotCard {
+    margin-left: 50px;
+    float: left;
+    width: 30%;
+    height: 540px;
+}
+
+#description {
+    margin-left: 33%;
+}
+
+.info {
+    display: block;
+    margin-left: 50px;
+}
+
+#space {
+    clear: both;
+}
+
+.footer {
+    padding: 2%;
+    position: absolute;
+    bottom: 3;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: #333333;
+}
+
